@@ -31,7 +31,13 @@ export default function HomeHero(block) {
           </div>
           <div className="col-lg-6">
             <div className="hero-two-banner">
-              <img src={block.image} alt={block.image_alt} />
+              <img
+                src={block.image}
+                style={{
+                  maxWidth: "655px",
+                }}
+                alt={block.image_alt}
+              />
               <div className="hero-two-banner-shape"></div>
             </div>
           </div>

@@ -6,16 +6,7 @@ export default function Footer({}) {
       <div className="container-fluid">
         <div className="footer-wrapper">
           <div className="row">
-            <div className="col-12 col-lg-4 me-auto order-2 order-lg-1">
-              <div className="footer-logo mt-7 mt-md-0">
-                <a href={footer.logo_url} className="">
-                  <img src={footer.logo} alt="logo" />
-                </a>
-                <p>
-                  © Copyright <span>{new Date().getFullYear()}</span>{" "}
-                  {footer.copyright}
-                </p>
-              </div>
+            <div className="col-12 col-lg-4">
               <div className="social-icon">
                 <ul className="list-unstyled">
                   {footer.social.map((link, i) => (
@@ -47,6 +38,22 @@ export default function Footer({}) {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="row">
+            <div
+              style={{
+                marginTop: "40px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+              className="footer-logo"
+            >
+              <p>
+                © Copyright <span>{new Date().getFullYear()}</span>{" "}
+                {footer.copyright}
+              </p>
+            </div>
           </div>
         </div>
       </div>

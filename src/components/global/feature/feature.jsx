@@ -6,7 +6,7 @@ export default function GlobalFeature(block) {
   if (block.reversed) {
     content = (
       <>
-        <div className="row align-items-center">
+        {/* <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="feature-item-banner mb-sm-8 mb-lg-10 mb-xxl-15 mb-7">
               <div className="card-image">
@@ -33,13 +33,13 @@ export default function GlobalFeature(block) {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </>
     );
   } else {
     content = (
       <>
-        <div className="row align-items-center">
+        {/* <div className="row align-items-center">
           <div className="col-lg-6 order-2 order-lg-1">
             <div className="feature-item-content mb-xl-15 mb-md-10 mb-7 ps-xxl-8 ps-0">
               <h2 className="pe-xl-0">{block.title}</h2>
@@ -66,7 +66,7 @@ export default function GlobalFeature(block) {
               <div className="effect-two"></div>
             </div>
           </div>
-        </div>
+        </div> */}
       </>
     );
   }

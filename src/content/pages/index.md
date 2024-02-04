@@ -11,50 +11,47 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    title: Beautiful email campaigns
+    title: Construire le futur
     description: >-
-      With Sendit, you can quickly create beautiful rich emails that capture a
-      reader's attention, engage them, and convert them into customers.
-    image: /images/hero/hero-image-2.png
+      Nous rendons vos reves, réalités, notre technogie, au centre de la crétivité et de l'inginieurie pour mieux vous servir.
+    image: /images/hero/hero-image-2.jpg
     image_alt: Reports dashboard
     button:
-      text: Try This Free
-      link: /signup/
+      text: Abonnez-vous à notre newsletter
+      link: /
   - _bookshop_name: global/counter
-    title: Scale your
-    title_suffix: Business
+    title: Réalisez vos
+    title_suffix: Projets
     description: >-
-      We have an extensive library of pre-written sales emails, proven marketing
-      templates, and more to get you started on your next project.
+      Notre engagement est de réaliser vos rêves architecturaux avec une excellence inégalée. Nous promettons une construction de qualité supérieure, respectant les délais convenus, et mettant en avant l'innovation et la durabilité.
     alternate_style: false
     numbers:
-      - prefix: $
-        number: 200
-        suffix: m
-        text: Venture capital raised
+      - prefix:
+        number: 50M
+        suffix: F
+        text: Des budjets de
       - prefix:
         number: 2016
         suffix:
-        text: Established in
+        text: Établi en
       - prefix:
         number: 40
         suffix: +
-        text: Amazing team members
+        text: Des membres expérimentés
       - prefix:
-        number: 4322
+        number: 32
         suffix: +
-        text: Active users and growing
+        text: Projets réalisés
   - _bookshop_name: home/video
-    image: /images/video/video-thum.jpg
+    image: https://www.seneplus.com/sites/default/files/styles/section_hero/public/raw_photos/ciment_.jpg?itok=3eGrMjbw
     image_alt: Thumbnail for video
-    video_url: https://vimeo.com/45830194
+    video_url: https://www.youtube.com/watch?v=26hYoZscGuQ
   - _bookshop_name: global/header
-    title: "Sendit "
-    title_suffix: Features
+    title: "Nos "
+    title_suffix: Services
     remove_top_padding: true
     description: >-
-      Our platform offers the most advanced features including automated email
-      content creation, dynamic personalization, and customer segmentation.
+      Notre société de cimenterie est déterminée à fournir des solutions de construction solides et durables. En tant que leader dans l'industrie, nous offrons une gamme complète de services spécialisés.
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-one.png
     image_alt: Message inbox

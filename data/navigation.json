@@ -1,24 +1,24 @@
 {
-  "logo": "/images/logo.svg",
+  "logo": "/images/logo.png",
   "items": [
     {
       "link": "/",
-      "text": "Home"
+      "text": "Accueil"
     },
     {
-      "link": "/features/",
-      "text": "Features"
+      "link": "/",
+      "text": "Société"
     },
     {
-      "link": "/pricing/",
-      "text": "Pricing"
+      "link": "/",
+      "text": "Prix"
     },
     {
-      "link": "/about/",
-      "text": "About"
+      "link": "/",
+      "text": "A propos"
     },
     {
-      "link": "/blog/",
+      "link": "/",
       "text": "Blog"
     },
     {

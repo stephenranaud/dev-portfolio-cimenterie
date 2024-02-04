@@ -3,7 +3,8 @@ const md = new MarkdownIt({ html: true });
 
 export default function GlobalTestimonial(block) {
   return (
-    <section className="testimonial">
+    <>
+      {/* <section className="testimonial">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center mb-5">
@@ -25,29 +26,32 @@ export default function GlobalTestimonial(block) {
           ))}
         </div>
       </div>
-    </section>
+    </section> */}
+    </>
   );
 }
 function Testimonial({ slide, i }) {
   return (
-    <div className="col-lg-4 col-md-6 mb-5" key={i}>
-      <div className="testimonial-item">
-        <div className="testimonial-item-person">
-          <div className="thumb">
-            <img
-              src={slide.image}
-              alt="logo"
-              className={slide.image_alt}
-              loading="lazy"
-            />
+    <>
+      {/* <div className="col-lg-4 col-md-6 mb-5" key={i}>
+        <div className="testimonial-item">
+          <div className="testimonial-item-person">
+            <div className="thumb">
+              <img
+                src={slide.image}
+                alt="logo"
+                className={slide.image_alt}
+                loading="lazy"
+              />
+            </div>
+            <div className="content">
+              <h3>{slide.author}</h3>
+              <p>{slide.designation}</p>
+            </div>
           </div>
-          <div className="content">
-            <h3>{slide.author}</h3>
-            <p>{slide.designation}</p>
-          </div>
+          <p>{slide.message}</p>
         </div>
-        <p>{slide.message}</p>
-      </div>
-    </div>
+      </div> */}
+    </>
   );
 }

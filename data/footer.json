@@ -1,5 +1,5 @@
 {
-  "logo": "/images/footer-logo.svg",
+  "logo": "/images/logo.png",
   "logo_url": "/",
   "copyright": "MyCompany. All rights reserved.",
   "social": [
@@ -26,48 +26,48 @@
   ],
   "sections": [
     {
-      "title": "Main Pages",
+      "title": "Pages",
       "links": [
         {
           "link": "/",
           "text": "Home"
         },
         {
-          "link": "/features/",
-          "text": "Features"
+          "link": "/",
+          "text": "Société"
         },
         {
-          "link": "/pricing/",
-          "text": "Price"
+          "link": "/",
+          "text": "Tarix"
         },
         {
-          "link": "/about/",
-          "text": "About"
+          "link": "/",
+          "text": "A propos"
         }
       ]
     },
     {
-      "title": "Community",
+      "title": "Communauuté",
       "links": [
         {
-          "link": "/blog/",
+          "link": "/",
           "text": "Blog"
         },
         {
-          "link": "/feed.xml",
+          "link": "/",
           "text": "RSS Feed"
         }
       ]
     },
     {
-      "title": "Company",
+      "title": "Notre société",
       "links": [
         {
           "link": "/contact/",
           "text": "Contact"
         },
         {
-          "link": "/privacy/",
+          "link": "/",
           "text": "Privacy Policy"
         }
       ]
